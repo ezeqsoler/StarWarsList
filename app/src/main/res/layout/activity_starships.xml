@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical"
+    tools:context=".StarshipsAdapter">
+
+    <ImageView
+        android:id="@+id/ivVehicles"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:src="@drawable/logo"
+        app:srcCompat="@drawable/starships" />
+
+    <TextView
+        android:id="@+id/tvStarshipName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textColor="#FFE81F"
+        android:textSize="18sp"
+        tools:text="Name:" />
+
+    <TextView
+        android:id="@+id/tvStarshipModel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textColor="#FFE81F"
+        android:textSize="18sp"
+        tools:text="Model:" />
+
+    <TextView
+        android:id="@+id/tvStarshipClassification"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textColor="#FFE81F"
+        android:textSize="18sp"
+        tools:text="Classification:" />
+
+    <TextView
+        android:id="@+id/tvStarshipManufacturer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textColor="#FFE81F"
+        android:textSize="18sp"
+        tools:text="Manufacturer" />
+
+    <TextView
+        android:id="@+id/tvStarshipCost"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textColor="#FFE81F"
+        android:textSize="18sp"
+        tools:text="Cost(galactic credits):" />
+
+    <TextView
+        android:id="@+id/tvStarshipLength"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textColor="#FFE81F"
+        android:textSize="18sp"
+        tools:text="Length:" />
+
+    <TextView
+        android:id="@+id/tvStarshipCrew"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textColor="#FFE81F"
+        android:textSize="18sp"
+        tools:text="Crew:" />
+
+    <TextView
+        android:id="@+id/tvStarshipPassengers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textColor="#FFE81F"
+        android:textSize="18sp"
+        tools:text="Passengers:" />
+
+    <TextView
+        android:id="@+id/tvStarshipMaxAtmospheringSpeed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textColor="#FFE81F"
+        android:textSize="18sp"
+        tools:text="Max Atmosphering Speed:" />
+
+    <TextView
+        android:id="@+id/tvStarshipHyperdriveRating"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textColor="#FFE81F"
+        android:textSize="18sp"
+        tools:text="Hyperdrive Rating:" />
+
+    <TextView
+        android:id="@+id/tvStarshipMGLT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textColor="#FFE81F"
+        android:textSize="18sp"
+        tools:text="MGLT(Max Speed in Megalights/hour):" />
+
+    <TextView
+        android:id="@+id/tvStarshipCargoCapacity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textColor="#FFE81F"
+        android:textSize="18sp"
+        tools:text="Cargo Capacity(kg):" />
+
+    <TextView
+        android:id="@+id/tvStarshipConsumables"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textColor="#FFE81F"
+        android:textSize="18sp"
+        tools:text="Consumables:" />
+
+</LinearLayout>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical"
+    tools:context=".PlanetsAdapter">
+
+    <ImageView
+        android:id="@+id/ivPlanets"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:src="@drawable/logo"
+        app:srcCompat="@drawable/planets" />
+
+    <TextView
+        android:id="@+id/tvPlanetName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textColor="#FFE81F"
+        android:textSize="18sp"
+        tools:text="Planet Name:" />
+
+    <TextView
+        android:id="@+id/tvDiameter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textColor="#FFE81F"
+        android:textSize="18sp"
+        tools:text="Diameter:" />
+
+    <TextView
+        android:id="@+id/tvRotationPeriod"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textColor="#FFE81F"
+        android:textSize="18sp"
+        tools:text="Rotation Period" />
+
+    <TextView
+        android:id="@+id/tvOrbitalPeriod"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textColor="#FFE81F"
+        android:textSize="18sp"
+        tools:text="Orbital Period:" />
+
+    <TextView
+        android:id="@+id/tvGravity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textColor="#FFE81F"
+        android:textSize="18sp"
+        tools:text="Gravity:" />
+
+    <TextView
+        android:id="@+id/tvPopulation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textColor="#FFE81F"
+        android:textSize="18sp"
+        tools:text="Population" />
+
+    <TextView
+        android:id="@+id/tvClimate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textColor="#FFE81F"
+        android:textSize="18sp"
+        tools:text="Climate" />
+
+    <TextView
+        android:id="@+id/tvTerrain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textColor="#FFE81F"
+        android:textSize="18sp"
+        tools:text="Terrain:" />
+
+    <TextView
+        android:id="@+id/tvMass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textColor="#FFE81F"
+        android:textSize="18sp"
+        tools:text="Water Surface:" />
+
+</LinearLayout>
