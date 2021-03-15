@@ -18,25 +18,25 @@ import java.util.List;
 
 import okhttp3.Headers;
 
-public class PeopleActivity extends AppCompatActivity {
-    public static final String TAG = "PeopleActivity";
-    String url = "https://www.swapi.tech/api/people";
+public class StarshipsActivity extends AppCompatActivity {
+    public static final String TAG = "StarshipsActivity";
+    String url = "https://www.swapi.tech/api/starships";
 
-    List<People> people;
+    List<Starships> starships;
 
     RecyclerView rvList;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_people);
+        setContentView(R.layout.activity_starships);
 
         rvList = findViewById(R.id.rvList);
-        final PeopleAdapter adapter = new PeopleAdapter(people);
+        final StarshipsAdapter adapter = new StarshipsAdapter(starships);
         rvList.setAdapter(adapter);
         rvList.setLayoutManager(new LinearLayoutManager(this));
 
-        people = new ArrayList<People>();
+        starships = new ArrayList<Starships>();
 
         AsyncHttpClient client = new AsyncHttpClient();
         client.get(url, new JsonHttpResponseHandler() {
@@ -45,8 +45,8 @@ public class PeopleActivity extends AppCompatActivity {
                 Log.d(TAG, json.toString());
                 Log.d(TAG, json.jsonArray.toString());
                 try {
-                    people.addAll(People.fromJsonArray(json.jsonArray));
-                   // Log.d(TAG, "Size: ", people.size());
+                    starships.addAll(Starships.fromJsonArray(json.jsonArray));
+                    // Log.d(TAG, "Size: ", starships.size());
                     adapter.notifyDataSetChanged();
                 } catch (JSONException e){
                     e.printStackTrace();

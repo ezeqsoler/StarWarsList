@@ -19,7 +19,7 @@
         app:srcCompat="@drawable/species" />
 
     <TextView
-        android:id="@+id/tvSpeciesName"
+        android:id="@+id/tvSpecieNames"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="1"

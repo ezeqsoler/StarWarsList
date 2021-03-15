@@ -57,4 +57,48 @@ public class Vehicles {
                 + "Cargo capacity(kg): " + cargo_capacity + "\n"
                 + "Consumables: " + consumables;
     }
+
+    public String getName() {
+        return name;
+    }
+
+    public String getModel() {
+        return model;
+    }
+
+    public String getVehicle_class() {
+        return vehicle_class;
+    }
+
+    public String getManufacturer() {
+        return manufacturer;
+    }
+
+    public String getLength() {
+        return length;
+    }
+
+    public String getCost_in_credits() {
+        return cost_in_credits;
+    }
+
+    public String getCrew() {
+        return crew;
+    }
+
+    public String getPassengers() {
+        return passengers;
+    }
+
+    public String getMax_atmosphering_speed() {
+        return max_atmosphering_speed;
+    }
+
+    public String getCargo_capacity() {
+        return cargo_capacity;
+    }
+
+    public String getConsumables() {
+        return consumables;
+    }
 }
