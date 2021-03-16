@@ -21,7 +21,7 @@ public class StarshipsAdapter extends RecyclerView.Adapter<StarshipsAdapter.View
     @NonNull
     @Override
     public StarshipsAdapter.ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-        View starshipsView = LayoutInflater.from(parent.getContext()).inflate(R.layout.item_layout, parent, false);
+        View starshipsView = LayoutInflater.from(parent.getContext()).inflate(R.layout.activity_starships, parent, false);
         return new ViewHolder(starshipsView);
     }
 

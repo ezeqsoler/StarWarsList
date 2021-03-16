@@ -21,7 +21,7 @@ public class VehiclesAdapter extends RecyclerView.Adapter<VehiclesAdapter.ViewHo
     @NonNull
     @Override
     public VehiclesAdapter.ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-        View vehiclesView = LayoutInflater.from(parent.getContext()).inflate(R.layout.item_layout, parent, false);
+        View vehiclesView = LayoutInflater.from(parent.getContext()).inflate(R.layout.activity_vehicles, parent, false);
         return new ViewHolder(vehiclesView);
     }
 

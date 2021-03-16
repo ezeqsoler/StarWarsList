@@ -29,7 +29,7 @@ public class StarshipsActivity extends AppCompatActivity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_starships);
+        setContentView(R.layout.item_layout);
 
         rvList = findViewById(R.id.rvList);
         final StarshipsAdapter adapter = new StarshipsAdapter(starships);

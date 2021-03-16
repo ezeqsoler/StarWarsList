@@ -29,7 +29,7 @@ public class FilmsActivity extends AppCompatActivity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_films);
+        setContentView(R.layout.item_layout);
 
         rvList = findViewById(R.id.rvList);
         final FilmsAdapter adapter = new FilmsAdapter(films);

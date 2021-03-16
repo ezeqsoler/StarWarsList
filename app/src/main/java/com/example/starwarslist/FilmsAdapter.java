@@ -22,7 +22,7 @@ public class FilmsAdapter extends RecyclerView.Adapter<FilmsAdapter.ViewHolder>{
     @NonNull
     @Override
     public FilmsAdapter.ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-        View filmView = LayoutInflater.from(parent.getContext()).inflate(R.layout.item_layout, parent, false);
+        View filmView = LayoutInflater.from(parent.getContext()).inflate(R.layout.activity_films, parent, false);
         return new ViewHolder(filmView);
     }
 

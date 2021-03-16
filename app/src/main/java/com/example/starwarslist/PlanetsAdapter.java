@@ -21,7 +21,7 @@ public class PlanetsAdapter extends RecyclerView.Adapter<PlanetsAdapter.ViewHold
     @NonNull
     @Override
     public PlanetsAdapter.ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-        View planetsView = LayoutInflater.from(parent.getContext()).inflate(R.layout.item_layout, parent, false);
+        View planetsView = LayoutInflater.from(parent.getContext()).inflate(R.layout.activity_planets, parent, false);
         return new ViewHolder(planetsView);
     }
 

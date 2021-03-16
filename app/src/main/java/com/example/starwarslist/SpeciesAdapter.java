@@ -21,7 +21,7 @@ public class SpeciesAdapter extends RecyclerView.Adapter<SpeciesAdapter.ViewHold
     @NonNull
     @Override
     public SpeciesAdapter.ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-        View speciesView = LayoutInflater.from(parent.getContext()).inflate(R.layout.item_layout, parent, false);
+        View speciesView = LayoutInflater.from(parent.getContext()).inflate(R.layout.activity_species, parent, false);
         return new ViewHolder(speciesView);
     }
 
